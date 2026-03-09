@@ -1,0 +1,6 @@
+# Pokémon Typen Counter
+
+Ein Tool zum Nachschlagen von Typ-Effektivitäten in Pokémon.  
+Pokémon suchen oder Typen manuell auswählen — zeigt Super-effektiv, Wenig effektiv und Keine Wirkung auf einen Blick.
+
+🔗 **[https://bydopeman.github.io/pokemon-type-chart/](https://bydopeman.github.io/pokemon-type-chart/)**
