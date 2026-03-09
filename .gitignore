@@ -1,0 +1,8 @@
+# Nur pokemon_typen_counter_final.html wird getrackt
+src/
+compress.py
+cpokemon_daten.py
+pokemon_builder.py
+pokemon_daten.json
+index.html
+.old-files/
