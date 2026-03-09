@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Download – Pokémon Type Chart</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #1a1a2e;
+      font-family: "Nunito", sans-serif;
+      color: #fff;
+      flex-direction: column;
+      gap: 12px;
+    }
+    p { font-size: 14px; opacity: .6; margin: 0; }
+    a { color: #ffd700; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <p id="msg">⏬ Download startet…</p>
+  <p><a href="../">Zurück zur App</a></p>
+
+  <script>
+    fetch("../index.html")
+      .then(r => r.blob())
+      .then(blob => {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "PokemonTypeChart.html";
+        a.click();
+        document.getElementById("msg").textContent = "✅ Download gestartet!";
+      })
+      .catch(() => {
+        document.getElementById("msg").textContent = "❌ Fehler – bitte manuell speichern.";
+      });
+  </script>
+</body>
+</html>

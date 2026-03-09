@@ -7,6 +7,6 @@ Pokémon suchen oder Typen manuell auswählen — zeigt Super-effektiv, Wenig ef
 
 ## 💾 Offline-Download
 
-[**PokemonTypeChart.html herunterladen**](https://raw.githubusercontent.com/bydopeman/pokemon-type-chart/main/docs/index.html)
+**[https://bydopeman.github.io/pokemon-type-chart/download](https://bydopeman.github.io/pokemon-type-chart/download)**
 
-Rechtsklick → "Speichern unter" → Datei im Browser öffnen. Keine Installation nötig.
+Seite öffnen → Download startet automatisch → HTML-Datei im Browser öffnen.
