@@ -5,8 +5,3 @@ Pokémon suchen oder Typen manuell auswählen — zeigt Super-effektiv, Wenig ef
 
 🔗 **[https://bydopeman.github.io/pokemon-type-chart/](https://bydopeman.github.io/pokemon-type-chart/)**
 
-## 💾 Offline-Download
-
-**[https://bydopeman.github.io/pokemon-type-chart/download](https://bydopeman.github.io/pokemon-type-chart/download)**
-
-Seite öffnen → Download startet automatisch → HTML-Datei im Browser öffnen.
