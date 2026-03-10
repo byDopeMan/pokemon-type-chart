@@ -2,7 +2,7 @@
 src/
 compress.py
 cpokemon_daten.py
-pokemon_builder.py
+csprites_laden.py
 pokemon_daten.json
 main.html
 download.html
